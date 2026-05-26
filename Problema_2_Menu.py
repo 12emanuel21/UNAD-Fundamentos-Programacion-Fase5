@@ -27,7 +27,7 @@ def main():
     menu_restaurante = [
         ["Mojarra Frita", "Plato Principal", 35000],
         ["Arroz de Lisa", "Plato Principal", 18000],
-        ["Sopa de Guandú", "Plato Principal", 25000],
+        ["Sopa de Guandúl", "Plato Principal", 25000],
         ["Jugo de Corozo", "Bebidas", 8000],
         ["Limonada de Coco", "Bebidas", 10000],
         ["Enyucado", "Postres", 12000]
@@ -55,10 +55,10 @@ def main():
         # 3. Salida de datos en consola
         if precio_final < precio_base:
             # Si hubo descuento, lo mostramos destacado
-            print(f"Producto: {nombre:<18} | Base: ${precio_base:<8} | FINAL: ${precio_final:<8.2f} (¡Promo Aplicada!)")
+            print(f"Producto: {nombre} | Base: ${precio_base} | FINAL: ${precio_final} (¡Promo Aplicada!)")
         else:
             # Si no hubo descuento
-            print(f"Producto: {nombre:<18} | Base: ${precio_base:<8} | FINAL: ${precio_final:<8.2f}")
+            print(f"Producto: {nombre} | Base: ${precio_base} | FINAL: ${precio_final}")
             
     print("=" * 60)
 
